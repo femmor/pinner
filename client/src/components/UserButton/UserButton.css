@@ -1,0 +1,36 @@
+.user-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.user-button img {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.user-button .user-button-arrow {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    transition: all 0.3s;
+}
+
+.login-link {
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 32px;
+}
+
+.login-link:hover {
+    background-color: #f1f1f1;
+}
+
+/* @media (max-width: 475px) {
+    .user-button {
+        display: none;
+    }
+} */

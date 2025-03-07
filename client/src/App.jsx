@@ -1,8 +1,15 @@
 import './app.css'
 
+import { LeftBar, TopBar, Gallery } from './components'
 const App = () => {
   return (
-    <div>Hello World</div>
+    <div className='app'>
+      <LeftBar />
+      <div className="content">
+        <TopBar />
+        <Gallery />
+      </div>
+    </div>
   )
 }
 
