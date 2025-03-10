@@ -154,8 +154,6 @@ const items = [
   }
 ];
 
-
-
 const Gallery = () => {
   return (
     <div className="gallery">

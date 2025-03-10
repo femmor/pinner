@@ -1,6 +1,8 @@
+import { Gallery } from "../../components"
+
 const Home = () => {
   return (
-    <div>Home</div>
+   <Gallery />
   )
 }
 export default Home
