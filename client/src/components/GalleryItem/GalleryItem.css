@@ -1,0 +1,12 @@
+.gallery-item {
+    display: flex;
+}
+
+.gallery-item img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    grid-auto-rows: 10px;
+}
