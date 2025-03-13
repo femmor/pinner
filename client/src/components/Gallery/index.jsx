@@ -5,56 +5,56 @@ const items = [
   {
     id: 1,
     media: '/pins/pin1.jpeg',
-    width: 260,
-    height: 200
+    width: 800,
+    height: 1200
   },
   {
     id: 2,
     media: "/pins/pin2.jpeg",
-    width: 360,
-    height: 400
+    width: 800,
+    height: 1202
   },
   { 
     id: 3, 
     media: "/pins/pin3.jpeg",
-    width: 460,
-    height: 300,
+    width: 800,
+    height: 1421,
   },
   {
     id: 4,
     media: '/pins/pin4.jpeg',
-    width: 360,
-    height: 280
+    width: 800,
+    height: 1200
   },
   {
     id: 5,
     media: '/pins/pin5.jpeg',
-    width: 380,
-    height: 220
+    width: 800,
+    height: 1423
   },
   {
     id: 6,
     media: '/pins/pin6.jpeg',
-    width: 324,
-    height: 268
+    width: 800,
+    height: 1200
   },
   {
     id: 7,
     media: '/pins/pin7.jpeg',
-    width: 420,
-    height: 280
+    width: 800,
+    height: 450
   },
   {
     id: 8,
     media: '/pins/pin8.jpeg',
-    width: 366,
-    height: 368
+    width: 800,
+    height: 1202
   },
   {
     id: 9,
     media: '/pins/pin9.jpeg',
-    width: 500,
-    height: 400
+    width: 800,
+    height: 533
   },
   {
     id: 10,

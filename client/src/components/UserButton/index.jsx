@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./UserButton.css";
 import UserOptions from "../UserOptions";
+import Image from "../Image";
 
 const UserButton = () => {
   const [showUserOptions, setShowUserOptions] = useState(false);
@@ -13,9 +14,9 @@ const UserButton = () => {
 
   return currentUser ? (
     <div className="user-button">
-      <img src="/general/noAvatar.png" alt="noAvatar" className="no-avatar" />
-      <img
-        src="/general/arrow.svg"
+      <Image path="/general/noAvatar.png" alt="noAvatar" className="no-avatar" />
+      <Image
+        path="/general/arrow.svg"
         alt="arrow"
         className="user-button-arrow"
         onClick={toggleUserOptions}

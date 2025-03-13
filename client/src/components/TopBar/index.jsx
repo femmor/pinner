@@ -2,6 +2,7 @@
 import UserButton from "../UserButton"
 import "./TopBar.css"
 import useMobile from '../../hooks/useMobile'
+import Image from "../Image"
 
 const TopBar = () => {
   const mobile = useMobile()
@@ -10,7 +11,7 @@ const TopBar = () => {
     <div className="top-bar">
       {/* Search */}
       <div className="search">
-        <img src="/general/search.svg" alt="search" />
+        <Image path="/general/search.svg" alt="search" />
         <input type="text" className="search-input" placeholder="Search" />
       </div>
       {/* User Settings */}
